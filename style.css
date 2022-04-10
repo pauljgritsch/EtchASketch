@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: grey;
+  font-family: 'Brush Script MT', cursive;
+}
+
+button {
+  background-color: lightblue;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+#rainbow {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 700px;
+  background-color: lightblue;
+}
+
+.square {
+  border: 0.1px solid rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+
+#sizelabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#choose {
+  margin-bottom: 20px;
+}
+
+#bigsquare {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+}
+
+#smallsquare {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
