@@ -8,25 +8,28 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Etch-A-Sketch</h1>
-    <div class="container">
-      <div class="options">
-        SETTINGS
-        <div id="choose">
-          Choose Color:  
-          <input id="colorSelector" type="color">
+    <div id="gamearea">
+      <h1>Etch-A-Sketch</h1>
+      <div class="container">
+        <div class="options">
+          SETTINGS
+          <div id="choose">
+            Choose Color:
+            <input id="colorSelector" type="color">
+          </div>
+          <button id="rainbow">Rainbow</button>
+          <button id="eraser">Eraser</button>
+          <button id="reset">Reset</button>
+          <div id="sizelabel">
+            <div id="bigsquare"></div><div id="smallsquare"></div>
+          </div>
+          <input type="range" min="1" max="50" value="20" class="slider" id="gridSize">
         </div>
-        <button id="rainbow">Rainbow</button>
-        <button id="eraser">Eraser</button>
-        <button id="reset">Reset</button>
-        <div id="sizelabel">
-          <div id="bigsquare"></div><div id="smallsquare"></div>
+        <div id="grid">
+      
         </div>
-        <input type="range" min="1" max="50" value="20" class="slider" id="gridSize">
       </div>
-      <div id="grid">
-        
-      </div>
-    </div>    
+    </div>
+    Created By Paul Gritsch 
   </body>
 </html>

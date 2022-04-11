@@ -94,5 +94,5 @@ sizeBtn.addEventListener("change", () => {
 })
 
 
-drawGrid(10)
+drawGrid(20)
 
